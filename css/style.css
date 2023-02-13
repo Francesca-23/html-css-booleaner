@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    background-image: url('../img/pattern.png');
+    background-size: 20%;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+header > img{
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+/* main */
+
+section, footer{
+    margin: 30px 5px;
+}
+
+section.title{
+    margin: 20px 5px;
+}
+
+section > h1{
+    font-size: 40px;
+}
+
+section .font-grey{
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section .font-blue{
+    color: dodgerblue;
+}
+
+.small-font{
+    font-size: 13px;
+}
+
+table{
+    border-spacing: 0;
+}
+
+table .tab1{
+    width: 25%;
+}
+
+table .tab2{
+    width: 50%;
+}
+
+thead{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.color-row{
+    background-color: lightblue;
+}
+
+/* footer */
+
+footer > h3{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+footer > div{
+    background-size: cover;
+    width: 20%;
+    height: 210px;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+footer #image1{
+    background-image: url('../img/monitor.jpg');
+}
+
+footer #image2{
+    background-image: url('../img/graph.jpg');
+}
+
+ div > h2{
+    padding: 15px 10px;
+    color: white;
+}
+
+
+
