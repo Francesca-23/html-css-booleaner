@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@ header{
     position: relative;
 }
 
-header > img{
+.container > img{
     width: 15%;
     height: 80%;
     position: absolute;
@@ -47,6 +48,10 @@ section .font-blue{
 
 .small-font{
     font-size: 13px;
+}
+
+li{
+    margin-left: 1em;
 }
 
 table{
